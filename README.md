@@ -11,7 +11,7 @@ cd ../ns3-v2x-scheduling
 ./ns3 configure --build-profile=debug --disable-werror --enable-examples
 ./ns3 build
 ```
-- Import docker images and setup docker containers of [OpenRAN RIC](https://github.com/fgjeci/colosseum-near-rt-ric) basing on [OpenRAN GYM](https://openrangym.com/tutorials/ns-o-ran)
+- Import docker images and setup docker containers of [OpenRAN RIC](https://github.com/fgjeci/colosseum-near-rt-ric) based on [OpenRAN GYM](https://openrangym.com/tutorials/ns-o-ran)
 ```
 cd ../colosseum-near-rt-ric/setup-scripts
 ./setup-ric-bronze.sh
