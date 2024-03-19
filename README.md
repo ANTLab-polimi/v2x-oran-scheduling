@@ -1,11 +1,11 @@
 # V2X & O-RAN Resource Allocation/Management 
 This project includes an e2e setup and integration of [V2X ns3 module](https://5g-lena.cttc.es/blog/23/) of [5G-LENA](https://5g-lena.cttc.es/) with [OpenRAN](https://openrangym.com/) architecture with the purpose of implementing the resource allocation functionality of V2X networks in O-RAN architecture.
 
-It contains the [OpenRAN RIC](https://github.com/fgjeci/colosseum-near-rt-ric) of [O-RAN architecture](https://openrangym.com/), the xApp which implements the logic of [resource scheduling in V2X networks](https://github.com/fgjeci/v2x-xapp.git), the modified [V2X ns3 module](https://github.com/fgjeci/ns3-v2x-scheduling.git) of [5G-LENA](https://5g-lena.cttc.es/blog/23/) and the [E2 inteface](https://github.com/fgjeci/oran-e2sim) connecting the ns3 module with [O-RAN](https://www.o-ran.org/).
+It contains the [OpenRAN RIC](https://github.com/fgjeci/colosseum-near-rt-ric) of [O-RAN architecture](https://openrangym.com/), the xApp which implements the logic of [resource scheduling in V2X networks](https://github.com/fgjeci/v2x-xapp), the modified [V2X ns3 module](https://github.com/fgjeci/ns3-v2x-scheduling) of [5G-LENA](https://5g-lena.cttc.es/blog/23/) and the [E2 inteface](https://github.com/fgjeci/oran-e2sim) connecting the ns3 module with [O-RAN](https://www.o-ran.org/).
 
 To run the project:
 - Install the [ns3 packages](https://www.nsnam.org/wiki/Installation) needed to run ns3. 
-- Configure & build [ns3-v2x-scheduling](https://github.com/fgjeci/ns3-v2x-scheduling.git)
+- Configure & build [ns3-v2x-scheduling](https://github.com/fgjeci/ns3-v2x-scheduling)
 ```
 cd ../ns3-v2x-scheduling
 ./ns3 configure --build-profile=debug --disable-werror --enable-examples
@@ -24,7 +24,7 @@ At the end of the build, the added containers in docker should be the following:
 cd ../oran-e2sim/e2sim
 ./build_e2sim.sh
 ```
-- Setup the [xApp container](https://github.com/fgjeci/v2x-xapp.git)
+- Setup the [xApp container](https://github.com/fgjeci/v2x-xapp)
 ```
 cd ../v2x-xapp/setup-scripts
 ./setup-xapp-base.sh # Downloads & install the base image with the updated libraries. The base image shall have the e2 interface pre-installed, thus by default having enabled the connection with e2term and the exchange of E2 messages
