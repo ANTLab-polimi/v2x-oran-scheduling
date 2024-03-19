@@ -53,7 +53,7 @@ python3 run_xapp_parallel.py
 2. Starting ns3 simulation instances
 ```
 cd ../v2x-oran-scheduling
-python v2x_sched.py # Launches multiple processes in parallel, one per each simulation scenario
+python3 v2x_sched.py # Launches multiple processes in parallel, one per each simulation scenario
 ```
 3. Starting RIC-E2-endpoint
 ```
