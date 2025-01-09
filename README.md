@@ -5,6 +5,7 @@ This project includes an e2e setup and integration of [V2X ns3 module](https://5
 It contains the [OpenRAN RIC](https://github.com/fgjeci/colosseum-near-rt-ric) of [O-RAN architecture](https://openrangym.com/), the xApp implementing the logic of [resource scheduling in V2X networks](https://github.com/fgjeci/v2x-xapp), the modified [V2X ns3 module](https://github.com/fgjeci/ns3-v2x-scheduling) of [5G-LENA](https://5g-lena.cttc.es/blog/23/) and the [E2 inteface](https://github.com/fgjeci/oran-e2sim) connecting the ns3 module with [O-RAN](https://www.o-ran.org/).
 
 If you use this module in your research, please cite:
+
 F. Gjeci, E. Moro, F. Linsalata, I. Filippini and A. Capone, "Towards Smarter Vehicular Communications: Leveraging Open RAN for Enhanced Vehicle-to-Vehicle Resources Management," 2024 IEEE 100th Vehicular Technology Conference (VTC2024-Fall), Washington, DC, USA, 2024, pp. 1-7, doi: 10.1109/VTC2024-Fall63153.2024.10758024. [bibtex available here](https://ieeexplore.ieee.org/abstract/document/10758024?casa_token=05MkNMAbLDEAAAAA:GBR57H3P3-NCW_lgLZgCX3dyOmvrT-1QwTjJTRcWAAWBoo-rmPzUTiPU3oYHB4oOHb5O2YoNhA)
 
 To run the project:
